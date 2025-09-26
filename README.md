@@ -89,6 +89,13 @@ Enter your PIN: ****
 ```
 ---
 
+## 🛠️ Tech Stack
+
+ - Language: Java
+ - Paradigm: Object-Oriented Programming (OOP)
+ - Tools: Java Collections, Scanner (for input)
+
+---
 ## 🔮 Future Enhancements
 
  - Add file/database storage for persistent account data.
