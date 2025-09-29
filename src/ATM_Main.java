@@ -209,6 +209,10 @@ public class ATM_Main {
                 case 1:
                     System.out.print("Enter amount to add: ");
                     double amt = sc.nextDouble();
+                    if(ATM.getAtmBalance() + amt > 200000){
+                        System.out.println("Refill Limit Reached");
+                        break;
+                    }
                     ATM.addCash(amt);
                     break;
                 case 2:
